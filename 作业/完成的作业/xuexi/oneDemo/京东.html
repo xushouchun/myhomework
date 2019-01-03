@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .zy{width: 350px;}
+      .zj{width: 1200px}
+        .zc{width: 1900px;}
+        /*中间尺寸*/
+        .d1{width: 1000px;}
+        /*左边小格子26px尺寸的文字*/
+        .d2{height: 26px ;font-size: 14px;align-content: center;}
+    </style>
+</head>
+<body>
+<!--标头的方框-->
+<table border="1"  cellspacing="0" align="center" width="1900px" >
+    <tr style="height: 80px;">
+        <td colspan="3" bgcolor="maroon">
+           <!--嵌套一个中间表图 -->
+            <table border="1" class="zj" cellspacing="0" align="center">
+              <tr style="height: 80px">
+                  <td width="190px"><img src="img/微信图片_20181224151407.png" height="80" width="188"/></td>
+                  <td><img src="img/QQ截图20181224151516.png" height="81" width="994"/></td>
+              </tr>
+            </table>
+        </td>
+    </tr>
+    <!--身体方框-->
+    <tr style="height: 650px">
+        <!--身体左边方框-->
+        <td class="zy">
+
+            <img src="img/QQ截图20181224151847.png" height="610" width="357"/>
+        </td>
+
+        <!--<td ></td>-->
+      <!--身体中间方框-->
+       <td class="zj" valign="top">
+           <!--身体头部 标头框 -->
+          <table border="1px"  cellspacing="0" class="zj" >
+                <tr style="height: 170px;" >
+                    <td style="width: 190px;"><img src="img/QQ截图20181224151457.png" height="169" width="192"/></td>
+                    <td colspan="3" valign="top">
+                        <!--身体；头部的标头框搜索框一块编写排版-->
+                        <table border="1px" class="d1" cellspacing="0" valign="center">
+                            <tr style="height: 30px;font-size: 5px" align="left" bgcolor="#a9a9a9">
+                                <!--标头 分类书写-->
+                                <td style="width: 250px">北京</td>
+                                <td>你好，请登录</td>
+                                <td>免费注册 </td>
+                                <td>我的订单</td>
+                                <td>我的京东</td>
+                                <td>京东会员</td>
+                                <td>企业采购</td>
+                                <td>客户服务</td>
+                                <td>网站导航</td>
+                                <td>手机京东</td>
+                            </tr>
+                            <!--书写搜索栏-->
+                            <tr style="height: 140px">
+                                <td colspan="10">
+                                    <!--搜索栏分成两块-->
+                                    <table border="1px" cellspacing="0" class="d1">
+                                        <tr style="height: 140px">
+                                            <td width="800px" valign="top">
+                                                <!--在这个搜索栏框的左边分成三行，作为搜索栏 小字 以及导航作用-->
+                                                <table border="1px" cellspacing="0" width="800px">
+                                                    <!--第一行的搜索框-->
+                                                    <tr style="height: 60px">
+                                                        <td align="center">
+                                                            <form>
+                                                                <input type="text" style="width: 500px;height: 35px" >
+                                                                <input type="submit"value="搜索" style="height: 40px">
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                    <!--第二行小字框-->
+                                                    <tr style="height: 30px">
+                                                        <td align="center" valign="top">
+                                                            <table border="1" cellspacing="0" width="550">
+                                                                <tr style="height:30px;font-size: 5px" valign="top" >
+                                                                    <!--书写小字
+
+-->
+                                                                    <td>古法花生油</td>
+                                                                    <td> 奶酪圣诞 </td>
+                                                                    <td>300-100</td>
+                                                                    <td> 高效农机</td>
+                                                                    <td>满千减百</td>
+                                                                    <td>圣诞美衣</td>
+                                                                    <td>2件5折</td>
+                                                                    <td>家具钜惠</td>
+                                                                    <td> 500元券</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!--第三行导航框-->
+                                                    <tr style="height: 50px">
+                                                        <td>
+                                                            <table border="1px" cellspacing="0" width="800">
+                                                                <tr style="height: 50px" align="center">
+                                                                    <!--输入导航栏标题-         -->
+                                                                    <td>秒杀</td>
+                                                                    <td>优惠券</td>
+                                                                    <td>PLUS会员</td>
+                                                                    <td>闪购</td>
+                                                                    <td>拍卖</td>
+                                                                    <td>京东时尚</td>
+                                                                    <td>京东超市</td>
+                                                                    <td>京东生鲜</td>
+                                                                    <td>海国全球</td>
+                                                                    <td>京东金融</td>
+
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="width: 190px">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                            </tr>
+
+                        </table>
+                    </td>
+               </tr>
+              <!--身体中的  中间方框-->
+              <tr style="height: 480px">
+                  <td style="width: 200px">
+                      <!--定义左边框框的排列-->
+                      <table border="1px" cellspacing="0" width="200px"  align="center">
+
+
+                          <tr class="d2">
+                                 <td colspan="4">家用电器</td>
+
+                             </tr>
+                             <tr class="d2">
+                                 <td>手机/</td>
+                                 <td>运营商/</td>
+                                 <td colspan="2">数码</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>电脑/</td>
+                                 <td colspan="3">办公</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>家居/</td>
+                                 <td>家具/</td>
+                                 <td>家装/</td>
+                                 <td>厨具</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>男装/</td>
+                                 <td>女装/</td>
+                                 <td>童装/</td>
+                                 <td>内衣</td>
+                             </tr>
+
+                             <tr class="d2">
+                                 <td>美妆/</td>
+                                 <td>个护清洁/</td>
+                                 <td colspan="2">宠物</td>
+                                 <td></td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>女鞋/</td>
+                                 <td>箱包/</td>
+                                 <td>钟表/</td>
+                                 <td>珠宝</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>男鞋/</td>
+                                 <td>运动/</td>
+                                 <td colspan="2">户外</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>房产／</td>
+                                 <td>汽车/</td>
+                                 <td colspan="2">汽车用品</td>
+
+                             </tr>
+                             <tr class="d2">
+                                 <td>母婴／</td>
+                                 <td colspan="3">玩具乐器</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>食品/</td>
+                                 <td>酒类／</td>
+                                 <td>生鲜/</td>
+                                 <td>特产</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>艺术/</td>
+                                 <td>礼品鲜花/</td>
+                                 <td colspan="2">农资绿握</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td colspan="2">医药保健/</td>
+                                 <td colspan="2">计生情趣</td>
+
+                             </tr>
+                             <tr class="d2">
+                                 <td>图书/</td>
+                                 <td>文娱/</td>
+
+                                 <td colspan="2">电子书</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>机票/</td>
+                                 <td>酒店/</td>
+                                 <td> 旅游/</td>
+                                 <td>生活</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>理财/</td>
+                                 <td>众筹/</td>
+                                 <td>白条/</td>
+                                 <td>保险</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td>安装/</td>
+                                 <td>维修/</td>
+                                 <td colspan="2">  清洗保养</td>
+                             </tr>
+                             <tr class="d2">
+                                 <td colspan="4">工业品</td>
+                             </tr>
+
+                      </table>
+                  </td>
+                  <!--写中间图片引入表格-->
+                  <td valign="left">
+                      <table border="1" cellspacing="0" align="left" class="d1">
+                          <tr  style="height: 160px">
+                              <td rowspan="3" width="590px"><img src="img/647a724b16f2b7ab.jpg" height="470"
+                                                                 width="590"/></td>
+                              <td>
+
+                                  <img src="img/QQ截图20181224190728.png" height="149" width="187"/></td>
+                              <td rowspan="3">
+
+
+                                  <img src="img/QQ截图20181224191606.png" height="472" width="192"/></td>
+                          </tr >
+
+
+                          <tr style="height: 160px">
+                              <td>
+
+                                  <img src="img/QQ截图20181224190737.png" height="147" width="190"/></td>
+
+                          </tr>
+
+
+
+
+                          <tr style="height: 160px">
+                                <td>
+
+                                    <img src="img/QQ截图20181224190806.png" height="148" width="191"/></td>
+                          </tr>
+
+
+                      </table>
+                  </td>
+
+                  <td></td>
+
+              </tr>
+          </table>
+
+        </td>
+        <!--身体右边部分-->
+        <td class="zy">
+
+            <img src="img/QQ截图20181224152442.png" height="630" width="352"/></td>
+    </tr>
+    <!--;底部方框- -->
+    <tr style="height: 275px">
+        <td class="zy">
+        </td>
+
+        <td class="zj" >
+            <table border="1px"  cellspacing="0" width="100%" align="center">
+                <tr style="height: 270px" align="center">
+                    <td><img src="img/001.png" height="270" width="192"/></td>
+                    <td><img src="img/002.png" height="278" width="206"/></td>
+                    <td><img src="img/003.png" height="270" width="203"/></td>
+                    <td><img src="img/004.png" height="259" width="200"/></td>
+                    <td><img src="img/005.png" height="273" width="202"/></td>
+                    <td><img src="img/006.png" height="264" width="190"/></td>
+                </tr>
+            </table>
+        </td>
+        <td class="zy"></td>
+    </tr>
+</table>
+</body>
+</html>   <!--<table border="1px" align="left" cellspacing="0" width="=650px">-->
+<!--<tr style="height: 649px;" >-->
+<!--<td></td>-->
+<!--</tr>-->
+<!--</table>-->

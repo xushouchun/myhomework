@@ -1,0 +1,154 @@
+/*唯品会品*/
+div{border:1px red solid}
+
+
+#tb1 {
+    width: 50%;
+    height: 30px;
+    margin: auto;
+
+    /*flot:left*/
+}
+
+#tb1_1 {
+    float: left;
+
+}
+
+#tb1_2 {
+    float: right;
+    word-spacing: 20px;
+}
+
+#tb1_2 span {
+    color: #666;
+    font-size: 12px;
+}
+
+#tb1_1 span {
+    color: #666;
+    font-size: 12px;}
+#tz{
+    height: auto;
+    width: 100%;
+}
+#tz1{
+    height:auto;
+    width: 100%;
+
+}
+#tz2{
+    height:auto;
+    width: 100%;
+}
+#tb1-3{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+#tb1-4{
+    width: 90%;
+}
+#tb1-4 img{
+    width: 100%;
+}
+#tb1-5{width:10%;
+    /*background-color: #F8014F;*/
+
+}
+/*这处有疑问*/
+#tb1-55{
+    border-radius: 3px;
+    height:25px;
+    margin-top: 52px;
+    background-color: #F6F7F9;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+#tb11-555{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    display: none;
+
+}
+#tb1-55:hover + #tb11-555{
+    display: block;
+
+}
+/*22222222222222222222222222222222222222222222*/
+#tz3{
+    height: 40px;
+    /*background-color: #F10582;*/
+    border-bottom: 2px #CCCCCC solid;
+}
+#tb2{
+
+    height: 40px;
+    width: 50%;
+    margin: auto;
+
+}
+
+#tb2-1{
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+}
+.tb2-11{
+    float: left;
+    height: 40px;
+
+
+}
+.tb2-11>a{
+    text-decoration: none;
+    margin: 8px;
+}
+.tb2-11>a:hover{
+    color: black;
+}
+
+#tb2-11>a{
+    text-decoration:none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+#tbb2{
+    float: left;
+    width: 140px;
+    height: 100%;
+    background-color: #F10582;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#y1{
+    height: 2000px;
+    width: 100%;
+}
+#y1-1{
+    width: 45%;
+    margin: auto;
+    height: 2000px
+;
+}
+#y2-1{
+    display: flex;
+}
+#y2-11{
+    width: 10%;
+
+
+}
+.y2-12{
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.y2-11{font-size: 11px;
+line-height: 30px}

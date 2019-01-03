@@ -1,0 +1,242 @@
+/*公用样式*/
+body {
+    padding: 0;
+    margin-top:20px;
+
+}
+
+div {
+    /*border: 1px red solid;*/
+
+}
+
+#t1 {
+    height: 100px;
+    width: 100%;
+
+}
+
+#t2 {
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+
+}
+
+.t22 {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center
+}
+
+.t22 > img {
+    height: 100px;
+
+}
+
+#t22_1 {
+    width: 100%;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.t22_2 {
+    width: 18%;
+    height: 25px;
+    float: right;
+    display: flex;
+
+}
+
+/*log 图片*/
+.t22_2 img {
+    height: 20px;
+    width: 20px;
+}
+
+/*标题右边小图标的字*/
+.t22_2 span {
+    font-size: 14px;
+}
+
+#y1 {
+    width: 100%;
+    height: 650px;
+    background-color: #FAA8AC;
+}
+
+#y-14 {
+    width: 30%;
+    height: 20px;
+    float: left;
+
+}
+
+#y-14, #y4-12, #y13 {
+    font-size: 14px;
+    /*display: flex;*/
+    /*align-content: flex-end;*/
+
+}
+
+#y2 {
+    width: 60%;
+    margin: auto;
+    height: 650px;
+    display: flex;
+    /*justify-content:center;*/
+
+}
+
+#y2-1 {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding-top:100px
+}
+
+#y2-1 > img {
+
+}
+
+/*控制表单控制台*/
+#y2-2 {
+    height: 470px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+}
+
+/*从三开始为表单头部到六结束*/
+#y3 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-bottom: #CCCCCC solid;
+
+}
+
+.y3-1 {
+    width: 49%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    /*border-right: #CCCCCC solid;*/
+
+}
+#y3_1{
+    border-right: #CCCCCC solid;
+}
+.y3-1 span {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 楷体;
+}
+
+.y3-11 {
+    /*border-right: 1px #CCCCCC solid;*/
+    border-bottom: 1px #CCCCCC solid;
+}
+
+#y4-z {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+#y4 {
+    height:auto;
+}
+
+#y4-1 {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+
+}
+
+#y4-1 input {
+    width: 98%;
+    height: 35px;
+    margin: 30px 0 0 0;
+
+}
+
+#y4-11 {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+/*background-color:lawngreen;*/
+
+#y4-12 {
+    width: 22%;
+    height: 20px;
+    float: right
+}
+#y4-13 {
+    width: 50%;
+
+}
+/*登陆按钮*/
+#y4-2 {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #F10582;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*#y4-22{*/
+/*height:50px;*/
+/*width:100px;*/
+
+/*}用来备用的*/
+
+#y4-2 > span {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/*微信图标部分*/
+#y5 {
+    height: 70px;
+    margin-top:20px;
+}
+
+/*表单下面的小字*/
+#y6 {
+    height: 25px;
+}
+#y6 span{font-size: 12px;
+    word-spacing: 10px;
+}
+#s1{
+    margin-left:23px;
+}
+#s2{margin-left:23px;
+}
+#dz{
+    height: auto;
+    width:100%;
+}
+#d1{
+    height: 30px;
+
+
+}
+#d2{
+    height: 50px;
+    text-align: center;
+
+}
+#d2 span{font-size:12px;}
+
